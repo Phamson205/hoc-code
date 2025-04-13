@@ -1,0 +1,92 @@
+<!-- 📝 Bài tập 1: Tạo một trang web đơn giản
+Yêu cầu:
+
+Tạo một trang web với tiêu đề và một đoạn văn giới thiệu về bản thân.
+
+Trang web cần có các thành phần sau:
+
+Tiêu đề trang (<title>).
+
+Một tiêu đề lớn (<h1>).
+
+Một đoạn văn (<p>).
+
+Một ảnh (dùng thẻ <img>).
+
+Hướng dẫn:
+
+Sử dụng thẻ <html>, <head>, <body>.
+
+Thêm một tiêu đề trang với thẻ <title>.
+
+Dùng <h1> cho tiêu đề lớn và <p> cho đoạn văn.
+
+Chèn một hình ảnh với thẻ <img>. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gioi Thieu Ban Than</title>
+</head>
+<body>
+    <h1> About Me</h1>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis numquam ut consequatur, 
+        fugiat nostrum officiis nulla ratione! Placeat ducimus tempore itaque cum perferendis ipsam 
+        repudiandae nisi necessitatibus corrupti! Quos, ad.</p>
+    <img src="https://cloud.firebrandtech.com/api/v2/img/111/9781600589881/XL" alt="anh ban than">
+    
+    <h2> Sở Thích </h2>
+    <ul> 
+        <li>Đi dạo</li>
+        <li>Đi cafe</li>
+        <li>Chụp ảnh</li>
+    </ul>
+
+    <form>
+        <label for="name">Họ và tên</label>
+        <input type="text" id="name" placeholder="Nhập tên của bạn" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Nhập email của bạn" required><br>
+        
+        <label for="message">Thông điệp</label><br>
+        <textarea id="message" name="message" rows="10" cols="60" placeholder="Nhập thông điệp cuả bạn"></textarea><br>
+        
+        <button type="submit">Gửi</button>
+    </form>
+    <br><br><br>
+    <table  border="2" cellpadding="20">
+        <tr>
+            <th>Tên</th>
+            <th>Tuổi</th>
+            <th>Nghề Nghiệp</th>
+        </tr>
+        <tr>
+            <td>Phạm A</td>
+            <td>23</td>
+            <td>Lập trình viên</td>
+        </tr>
+        <tr>
+            <td>Phạm B</td>
+            <td>25</td>
+            <td>Giáo Viên</td>
+        </tr>
+        <tr>
+            <td>Phạm C</td>
+            <td>30</td>
+            <td>Bác Sĩ</td>
+        </tr>
+    </table>
+    <br><br>
+    <a href="https://youtu.be/OrqZ2dlbs0I?list=RDOrqZ2dlbs0I">Đến Youtube nghe nhạc nhé</a><br><br>
+    
+    <iframe width="914" height="514" 
+    src="https://www.youtube.com/embed/OrqZ2dlbs0I?list=RDOrqZ2dlbs0I" 
+    title="The Cool Cats Guitar &amp; Trumpet Night" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
